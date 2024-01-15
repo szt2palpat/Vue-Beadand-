@@ -6,6 +6,6 @@ const CurrentSzinhaz=ref(SzinhazStore.szinhaz['Vigszinhaz'])
 </script>
 
 <template>
-<div id="Gomb"></div>
+<div></div>
 </template>
 

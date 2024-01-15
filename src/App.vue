@@ -4,10 +4,19 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <div class="nav navbar text-black ">
+        <RouterLink class="nav nav-link" to="/">Home</RouterLink>
+        <RouterLink class="nav nav-link"  to="/about">About</RouterLink>
+      </div>
   <RouterView />
 </template>
 
+<style>
+.navbar{
+  width: 10%;
+
+}
+.nav-link{
+color: black;
+}
+</style>
